@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zegar</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="digital" id="digital">
+        <div id="time">
+          <div><span id="hour">00</span><span>Hours</span></div>
+          <div><span id="minutes">00</span><span>Minutes</span></div>
+          <div><span id="seconds">00</span><span>Seconds</span></div>
+        </div>
+      </div>
+      <div class="analog">
+        <div class="tarcza">
+          <div class="podzial podzial1"></div>
+          <div class="podzial podzial2"></div>
+          <div class="podzial podzial3"></div>
+          <div class="podzial podzial4"></div>
+          <div class="srodek"></div>
+          <div class="wskazowka godz"></div>
+          <div class="wskazowka min"></div>
+          <div class="wskazowka sek"></div>
+        </div>
+      </div>
+      <div class="timer">
+        <div id="dzisiejszaData" onload="data()"></div>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
